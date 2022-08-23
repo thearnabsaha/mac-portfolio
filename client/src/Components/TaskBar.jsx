@@ -1,30 +1,29 @@
 import React from 'react'
 import "../Styles/Taskbar.scss"
 import insta from '../assets/insta.svg';
+import { motion } from "framer-motion"
+
 const TaskBar = () => {
   return (
     <>
-        <div className="taskbar">
-            <img src={insta} alt="" />
-            <img src={insta} alt="" />
-            <img src={insta} alt="" />
-            <img src={insta} alt="" />
-            <img src={insta} alt="" />
-            <img src={insta} alt="" />
-            {/* {/* <img src={insta} alt="" />
-            <img src={insta} alt="" />
-            <img src={insta} alt="" />
-            <img src={insta} alt="" />
-            <img src={insta} alt="" /> */}
-            <img src={insta} alt="" />
-            <img src={insta} alt="" />
-            <img src={insta} alt="" />
-            <img src={insta} alt="" />
-            <img src={insta} alt="" />
-            <img src={insta} alt="" />
-            <img src={insta} alt="" />
-            <img src={insta} alt="" /> 
-        </div>
+        <motion.div className="taskbar">
+            <motion.img src={insta} alt="" whileHover={{scale:1.5,translateY:"-10px"}}/>
+            <motion.img src={insta} alt="" whileHover={{scale:1.5,translateY:"-10px"}}/>
+            <motion.img src={insta} alt="" whileHover={{scale:1.5,translateY:"-10px"}}/>
+            <motion.img src={insta} alt="" whileHover={{scale:1.5,translateY:"-10px"}}/>
+            <motion.img src={insta} alt="" whileHover={{scale:1.5,translateY:"-10px"}}/>
+            <motion.img src={insta} alt="" whileHover={{scale:1.5,translateY:"-10px"}}/>
+            <motion.img src={insta} alt="" whileHover={{scale:1.5,translateY:"-10px"}}/>
+            <motion.img src={insta} alt="" whileHover={{scale:1.5,translateY:"-10px"}}/>
+            <motion.img src={insta} alt="" whileHover={{scale:1.5,translateY:"-10px"}}/>
+            <motion.img src={insta} alt="" whileHover={{scale:1.5,translateY:"-10px"}}/>
+            <motion.img src={insta} alt="" whileHover={{scale:1.5,translateY:"-10px"}}/>
+            <motion.img src={insta} alt="" whileHover={{scale:1.5,translateY:"-10px"}}/>
+            <motion.img src={insta} alt="" whileHover={{scale:1.5,translateY:"-10px"}}/>
+            <motion.img src={insta} alt="" whileHover={{scale:1.5,translateY:"-10px"}}/>
+            <motion.img src={insta} alt="" whileHover={{scale:1.5,translateY:"-10px"}}/>
+            <motion.img src={insta} alt="" whileHover={{scale:1.5,translateY:"-10px"}}/>
+        </motion.div>
     </>
   )
 }
