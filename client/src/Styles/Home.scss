@@ -1,0 +1,27 @@
+@import "./variables";
+html{
+    background:url("../src/assets/back.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-color: black;
+}
+#home{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+    .iconBox{
+        margin: 2rem 2rem;
+        .icons{
+            img{
+                height: 75px;
+            }
+            p{
+                color: $text-white;
+                text-align: center;
+                transform: translateY(-10px);
+            }
+        }
+    }
+}
