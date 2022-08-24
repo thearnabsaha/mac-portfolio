@@ -13,7 +13,7 @@ const TaskBar = () => {
             <motion.img src={insta} alt="" whileHover={{scale:1.5,translateY:"-10px"}} initial={{scale:0}} animate={{scale:1}} transition={{delay:1.3,duration:1,type:"spring"}}/>
             <motion.img src={insta} alt="" whileHover={{scale:1.5,translateY:"-10px"}} initial={{scale:0}} animate={{scale:1}} transition={{delay:1.4,duration:1,type:"spring"}}/>
             <motion.img src={insta} alt="" whileHover={{scale:1.5,translateY:"-10px"}} initial={{scale:0}} animate={{scale:1}} transition={{delay:1.5,duration:1,type:"spring"}}/>
-            <motion.img src={insta} alt="" whileHover={{scale:1.5,translateY:"-10px"}} initial={{scale:0}} animate={{scale:1}} transition={{delay:1.6,duration:1,type:"spring"}}/>
+            {/* <motion.img src={insta} alt="" whileHover={{scale:1.5,translateY:"-10px"}} initial={{scale:0}} animate={{scale:1}} transition={{delay:1.6,duration:1,type:"spring"}}/>
             <motion.img src={insta} alt="" whileHover={{scale:1.5,translateY:"-10px"}} initial={{scale:0}} animate={{scale:1}} transition={{delay:1.7,duration:1,type:"spring"}}/>
             <motion.img src={insta} alt="" whileHover={{scale:1.5,translateY:"-10px"}} initial={{scale:0}} animate={{scale:1}} transition={{delay:1.8,duration:1,type:"spring"}}/>
             <motion.img src={insta} alt="" whileHover={{scale:1.5,translateY:"-10px"}} initial={{scale:0}} animate={{scale:1}} transition={{delay:1.9,duration:1,type:"spring"}}/>
@@ -23,7 +23,7 @@ const TaskBar = () => {
             <motion.img src={insta} alt="" whileHover={{scale:1.5,translateY:"-10px"}} initial={{scale:0}} animate={{scale:1}} transition={{delay:2.3,duration:1,type:"spring"}}/>
             <motion.img src={insta} alt="" whileHover={{scale:1.5,translateY:"-10px"}} initial={{scale:0}} animate={{scale:1}} transition={{delay:2.4,duration:1,type:"spring"}}/>
             <motion.img src={insta} alt="" whileHover={{scale:1.5,translateY:"-10px"}} initial={{scale:0}} animate={{scale:1}} transition={{delay:2.5,duration:1,type:"spring"}}/>
-            <motion.img src={insta} alt="" whileHover={{scale:1.5,translateY:"-10px"}} initial={{scale:0}} animate={{scale:1}} transition={{delay:2.6,duration:1,type:"spring"}}/>
+            <motion.img src={insta} alt="" whileHover={{scale:1.5,translateY:"-10px"}} initial={{scale:0}} animate={{scale:1}} transition={{delay:2.6,duration:1,type:"spring"}}/> */}
         </motion.div>
     </>
   )
